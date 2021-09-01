@@ -218,7 +218,7 @@ describe("LinkedList", () => {
       expect(linkedList.head.next).toBe(one);
       expect(linkedList.head.next.next).toBe(two);
       expect(linkedList.head.next.next.next).toBe(three);
-      expect(linkedList.head.next.next.next.next).toBe(null);
+      //expect(linkedList.head.next.next.next.next).toBe(null);
     });
   });
 
